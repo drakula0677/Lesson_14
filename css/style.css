@@ -1,0 +1,209 @@
+@import "null.css";
+
+/* @import url("https://fonts.googleapis.com/css?family=Lato:400,700,900,&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Philosopher:regular,italic,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Marck+Script:regular&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comforter&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Lobster:regular&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Stalinist+One:regular&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Supermercado+One:regular&display=swap"); */
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&display=swap");
+
+.body {
+	font-size: 16px;
+	font-style: normal;
+	color: #f5f5f5;
+	line-height: 1.5;
+}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	font-family: "Roboto";
+}
+[class*="__container"] {
+	max-width: 1020px;
+	margin: 0 auto;
+}
+.header {
+	margin-bottom: 50px;
+}
+.our-promise {
+	padding-bottom: 350px;
+}
+.our-promise__container {
+}
+.our-promise__heading {
+	margin-bottom: 68px;
+}
+.heading {
+}
+.heading__sub-title {
+	background: url("../img/Overline_Mark.svg") 0 -2px no-repeat;
+	padding-left: 33px;
+	font-weight: 700;
+	font-size: 12px;
+	line-height: 24px;
+	letter-spacing: 2.5px;
+	text-transform: uppercase;
+	color: #5D62B5;
+	margin-bottom: 33px;
+}
+.heading__title {
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 42px;
+	color: #000000;
+}
+.our-promise__content {
+	display: flex;
+	flex-wrap: wrap;
+	row-gap: 24px;
+	margin: 0px -12px;
+}
+.our-promise__box {
+	padding: 0px 12px;
+	flex: 1 1 33.333%;
+	min-width: 260px;
+}
+.box-promise-our {
+	display: flex;
+	align-items: flex-start;
+	column-gap: 23px;
+}
+.box-promise-our__icon {
+	flex: 0 0 63px;
+	max-width: 63px;
+	min-height: 63px;
+}
+.box-promise-our__body {
+}
+.box-promise-our__title {
+	font-size: 19px;
+	font-weight: 900;
+	line-height: 26px;
+	color: #f2726f;
+	margin-bottom: 20px;
+}
+.box-promise-our__text {
+	letter-spacing: 0.15px;
+	color: #4b4b4b;
+	line-height: 24px;
+}
+.our-impact {
+	background: #29C3BE;
+	bottom: 135px;
+	position: relative;
+}
+.our-impact__container {
+	padding-bottom: 212px;
+}
+.our-impact__container::before {
+	content: "";
+	position: absolute;
+	width: 68%;
+	height: 100%;
+	background: url("../img/Blob-2.png") 0 0 no-repeat;
+	left: 46%;
+	top: 0px;
+}
+.our-impact__content {
+	display: flex;
+	justify-content: space-between;
+	margin: 0px -15px 79px -15px;
+}
+.our-impact__heading{
+	align-self: flex-end;
+	max-width: 450px;
+	padding: 0px 15px;
+	flex: 0 0 50%;
+}
+.heading {
+}
+.heading__sub-title_white{
+	color: #ffffff;
+	background: url("../img/Overline_Mark2.svg") 0 -2px no-repeat;
+}
+.heading__title_white{
+	color: #ffffff;
+}
+.our-impact__image {
+	margin: -80px 0px 0px 0px;
+	flex: 0 0 52%;
+	padding: 0px 15px;
+	position: relative;
+	left: 38px;
+}
+.our-impact__img {
+	border-radius: 40px;
+	max-width: 100%;
+}
+.our-impact__body {
+	display: flex;
+	flex-wrap: wrap;
+	row-gap: 24px;
+	margin: 0 -12px;
+}
+.our-impact__block-row {
+	padding: 0 12px;
+	flex: 0 1 25%;
+}
+.block-row {
+	display: flex;
+	justify-content: center;
+	column-gap: 12px;
+}
+.block-row__icon {
+	flex: 0 0 76px;
+	max-width: 76px;
+	max-height: 76px;
+}
+.block-row__item {
+	align-self: center;
+}
+.block-row__title {
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 42px;
+	color: #FFFFFF;
+	margin-bottom: 3px;
+}
+.block-row__text {
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 24px;
+	color: #5D62B5;
+	letter-spacing: 0.15px;
+}
+.our-impact__bottom-block {
+	display: flex;
+	padding: 43px 76px 46px 70px;
+	justify-content: space-between;
+	max-width: 1020px;
+	border-radius: 20px;
+	background: #5D62B5;
+	position: absolute;
+	bottom: -75px;
+}
+.block-bottom {
+}
+.block-bottom__text {
+	font-weight: 900;
+	font-size: 24px;
+	color: #FFFFFF;
+	line-height: 30px;
+	flex: 0 1 562px;
+}
+.block-bottom__link {
+	font-weight: 700;
+	align-self: center;
+	text-align: center;
+	font-size: 12px;
+	line-height: 2;
+	letter-spacing: 0.15px;
+	color: #ffffff;
+	background: #f2726f;
+	border-radius: 8px;
+	text-transform: uppercase;
+	max-width: 210px;
+	padding: 9px 25px;
+}
